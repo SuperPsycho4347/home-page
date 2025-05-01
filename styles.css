@@ -1,4 +1,58 @@
+body {
+    background-image: url(./img/./pexels-evie-shaffer-1259279-4004374.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     margin: 0;
     padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    gap: 0rem;
+}
+
+.header .img-sec img {
+    max-width: 300px;
+    max-height: 391px;
+}
+
+.header .card {
+    background-color: white;
+    max-width: 810px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 33px;
+    text-wrap: wrap;
+    padding: 1rem;
+    gap: 3.5rem;
+}
+
+.header .card h1 {
+    font-family: 'Playfair Display';
+    align-self: center;
+    font-weight: lighter;
+}
+
+.header .card p {
+    color: grey;
+}
+
+.header .card .icons {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
 }

@@ -1,5 +1,5 @@
 body {
-    background-image: url(./img/./pexels-evie-shaffer-1259279-4004374.jpg);
+    background-image: url(./img/pexels-jplenio-1103970.jpg);
     background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    gap: 5rem;
 }
 
 .header {
@@ -55,4 +56,62 @@ body {
     display: flex;
     gap: 10px;
     align-self: flex-end;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    width: 1100px;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display';
+    align-items: flex-start;
+}
+
+.hero .first-row,
+.hero .second-row  {
+    display: flex;
+    gap: 5rem;
+}
+
+.hero .first-row .card,
+.hero .second-row .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.hero .first-row .card img,
+.hero .second-row .card img {
+    width: 340px;
+    height: 250px;
+}
+
+.hero .first-row .card .text p,
+.hero .second-row .card .text p {
+    text-align: center;
+    color: gray;
+}
+
+.hero .first-row .card .head-row,
+.hero .second-row .card .head-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero .first-row .card .head-row h3,
+.hero .first-row .card .head-row h3 {
+    font-family: 'Playfair Display';
+}
+
+.hero .first-row .card .head-row .icons,
+.hero .first-row .card .head-row .icons {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
 }

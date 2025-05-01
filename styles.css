@@ -228,10 +228,6 @@ body {
         text-align: center;
     }
 
-    .hero {
-
-    }
-
     .hero .first-row,
     .herp .second-row {
         flex-direction: column;
